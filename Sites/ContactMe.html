@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="../Images/contact.png">
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+<div id="contactme">
+    <h2>Contact Me</h2>
+    <form action="contact.php" method="post">
+
+        <p>Name:</p>
+        <p><input type="text" name="name" placeholder="Name" autofocus></p>
+
+        <p>Species:</p>
+        <p><input name="species" placeholder="Species"></p>
+
+        <p>Age: </p>
+        <p><input type="number" name="age" placeholder="21" max="100" min="0"></p>
+
+        <p>E-mail:</p>
+        <p><input type="email" placeholder="mail@mail.ch"></p>
+
+        <p>Phone number:</p>
+        <input type="tel" name="telephone_number" placeholder="0767777777">
+
+
+        <p>Are you:</p>
+        <p><input type="radio" name="areyou" value="single" checked> Single</p>
+        <p><input type="radio" name="areyou" value="in a relationship"> In a Relationship</p>
+        <p><input type="radio" name="areyou" value="married"> Married</p>
+        <p><input type="radio" name="areyou" value="it's complicated"> It's complicated</p>
+
+        <p>Message: </p>
+        <p><textarea name="comments" rows="10" cols="25" placeholder="Type your message here!"></textarea></p>
+
+
+        <p><input type="submit"></p>
+
+    </form>
+</div>
+
+<footer>
+    <p> &copy; Neville Walo</p>
+</footer>
+</body>
+</html>
