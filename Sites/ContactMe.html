@@ -11,19 +11,19 @@
     <form action="contact.php" method="post">
 
         <p>Name:</p>
-        <p><input type="text" name="name" placeholder="Name" autofocus></p>
+        <p><input type="text" name="name" placeholder="Name" autofocus required></p>
 
         <p>Species:</p>
-        <p><input name="species" placeholder="Species"></p>
+        <p><input name="species" placeholder="Species" required></p>
 
         <p>Age: </p>
-        <p><input type="number" name="age" placeholder="21" max="100" min="0"></p>
+        <p><input type="number" name="age" placeholder="21" max="100" min="0" required></p>
 
         <p>E-mail:</p>
-        <p><input type="email" placeholder="mail@mail.ch"></p>
+        <p><input type="email" placeholder="mail@mail.ch" required></p>
 
         <p>Phone number:</p>
-        <input type="tel" name="telephone_number" placeholder="0767777777">
+        <input type="tel" name="telephone_number" placeholder="0767777777" required>
 
 
         <p>Are you:</p>
@@ -33,7 +33,8 @@
         <p><input type="radio" name="areyou" value="it's complicated"> It's complicated</p>
 
         <p>Message: </p>
-        <p><textarea name="comments" rows="10" cols="25" placeholder="Type your message here!"></textarea></p>
+        <p><textarea name="comments" rows="10" cols="25" placeholder="Type your message here!" maxlength="5000"
+                     required></textarea></p>
 
 
         <p><input type="submit"></p>
