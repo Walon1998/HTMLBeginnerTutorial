@@ -2,43 +2,48 @@
 <html lang="en">
 <head>
     <link rel="icon" href="../Images/contact.png">
+    <link href="../defaultstyle.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Contact Me</title>
 </head>
 <body>
 <div id="contactme">
     <h2>Contact Me</h2>
+    <hr>
     <form action="contact.php" method="post">
 
-        <p>Name:</p>
+        <p>Name</p>
         <p><input type="text" name="name" placeholder="Name" autofocus required></p>
 
-        <p>Species:</p>
+        <p>Species</p>
         <p><input name="species" placeholder="Species" required></p>
 
-        <p>Age: </p>
+        <p>Age</p>
         <p><input type="number" name="age" placeholder="21" max="100" min="0" required></p>
 
-        <p>E-mail:</p>
-        <p><input type="email" placeholder="mail@mail.ch" required></p>
+        <p>E-Mail</p>
+        <p><input placeholder="Your mail" required type="email"></p>
 
         <p>Phone number:</p>
-        <input type="tel" name="telephone_number" placeholder="0767777777" required>
+        <input name="telephone_number" placeholder="076 777 77 77" required type="tel">
 
 
         <p>Are you:</p>
-        <p><label>
-            <input type="radio" name="areyou" value="single" checked>
-        </label> Single</p>
-        <p><label>
-            <input type="radio" name="areyou" value="in a relationship">
-        </label> In a Relationship</p>
-        <p><label>
-            <input type="radio" name="areyou" value="married">
-        </label> Married</p>
-        <p><label>
-            <input type="radio" name="areyou" value="it's complicated">
-        </label> It's complicated</p>
+        <div id="areyou">
+            <p><label>
+                <input checked name="areyou" type="radio" value="single">
+            </label> Single</p>
+            <p><label>
+                <input name="areyou" type="radio" value="in a relationship">
+            </label> In a Relationship</p>
+            <p><label>
+                <input name="areyou" type="radio" value="married">
+            </label> Married</p>
+            <p><label>
+                <input name="areyou" type="radio" value="it's complicated">
+            </label> It's complicated</p>
+
+        </div>
 
         <p>Message: </p>
         <p><textarea name="comments" rows="10" cols="25" placeholder="Type your message here!" maxlength="5000"

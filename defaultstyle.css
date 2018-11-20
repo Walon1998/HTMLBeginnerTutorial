@@ -59,7 +59,6 @@ th {
 }
 
 
-
 img {
     margin-bottom: 25px;
 
@@ -71,5 +70,28 @@ footer {
 }
 
 a {
+
+}
+
+#discography tr:hover {
+    background-color: white;
+
+}
+
+#discography td {
+    border: 0px;
+
+}
+
+#discography tr {
+    /*border: 1px solid #ddd;*/
+}
+
+hr {
+    margin-top: 20px;
+}
+
+label {
+    text-align: left;
 
 }
