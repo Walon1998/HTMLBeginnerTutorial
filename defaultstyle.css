@@ -1,0 +1,50 @@
+body {
+    font-family: Calibri, helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+h1 {
+    letter-spacing: 0.1em;
+
+}
+
+h2 {
+
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    margin: auto;
+    display: inline-block;
+
+
+}
+
+table {
+
+    margin: auto;
+    text-align: left;
+
+}
+
+img {
+    margin-bottom: 15px;
+
+}
+
+footer {
+    text-align: right;
+
+}
+
+a {
+
+}
